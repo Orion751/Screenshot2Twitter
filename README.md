@@ -1,2 +1,2 @@
 # Search2Twitter
-Takes a Screenshot of a Search Results Page and Tweets It
+Performs a Search from a List of Queries and Tweets a Screenshot of the Search Results Page
