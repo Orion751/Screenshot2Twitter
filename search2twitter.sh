@@ -16,3 +16,5 @@ Send the screenshot to Twitter
 searchFile="$1"
 oldSearchFile="$2"
 
+head -1 "$searchFile"
+
