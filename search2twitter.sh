@@ -33,5 +33,7 @@ done
 searchFile="$1"
 oldSearchFile="$2"
 
-head -1 "$searchFile"
+search=`head -1 "$searchFile"`
+
+echo "$search"
 
