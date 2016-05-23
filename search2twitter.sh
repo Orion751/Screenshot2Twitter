@@ -35,5 +35,7 @@ oldSearchFile="$2"
 
 search=`head -1 "$searchFile"`
 
-echo "$search"
+if [ "$verbose" = true ]; then
+    echo "$search"
+fi
 
