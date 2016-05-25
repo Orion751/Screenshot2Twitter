@@ -39,3 +39,5 @@ if [ "$verbose" = true ]; then
     echo "$search"
 fi
 
+echo "$search" >> "$oldSearchFile"
+
