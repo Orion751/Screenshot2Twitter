@@ -33,11 +33,11 @@ done
 searchFile="$1"
 oldSearchFile="$2"
 
-search=`head -1 "$searchFile"`
+searchTerms=`head -1 "$searchFile"`
 
 if [ "$verbose" = true ]; then
-    echo "$search"
+    echo "$searchTerms"
 fi
 
-echo "$search" >> "$oldSearchFile"
+echo "$searchTerms" >> "$oldSearchFile"
 
