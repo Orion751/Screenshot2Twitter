@@ -41,3 +41,5 @@ fi
 
 echo "$searchTerms" >> "$oldSearchFile"
 
+echo "$(tail -n +2 "$searchFile")" > "$searchFile"
+
